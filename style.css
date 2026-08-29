@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 2px solid orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.header {
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.header a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.header a:hover {
+    text-shadow: 0 0 10px orange;
+    color: orangered;
+}
+
+.header a:active {
+    transform: scale(0.92);
+    text-shadow: 0 0 10px rgba(255, 166, 0, 0);
+}
+
+header h2 span {
+    color: orange;
+    font-size: 35px;
+    border-bottom: 2px solid orange;
+}
+
+header h2 {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.tugma {
+    width: 170px;
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+.tugma:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    box-shadow: 0 0 8px orange;
+    background-color: orangered;
+}
+
+.tugma:active {
+    transform: scale(1);
+    background-color: orange;
+    box-shadow: 0 0 8px rgba(255, 166, 0, 0);
+}
+
+main {
+    padding-top: 100px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.boxx {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.taom {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.lahzalar {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: orange;
+}
+
+.sifatli {
+    color: rgb(160, 160, 160);
+    font-size: 20px;
+}
+
+.logo-cheti {
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    margin-top: -320px;
+    margin-left: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px orange;
+}
+
+.logo-ichi {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px white;
+    transition: 0.4s;
+}
+
+.logo-ichi img {
+    width: 400px;
+    height: 400px;
+}
+
+.logo-ichi:hover {
+    transform: scale(1.04);
+}
+
+
+footer {
+    width: 100%;
+    height: 120px;
+    color: gray;
+    background-color: #171717;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.bosh{
+    border-bottom: 2px solid orange;
+}
