@@ -146,6 +146,7 @@ main{
 
 .box{
     display: flex;
+    flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
 }

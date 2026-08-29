@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 25px;
+}
+
+.menu {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.300);
+}
+
+.header {
+    background: orange;
+    color: white;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.logo span {
+    color: #fff3e8;
+    font-size: 18px;
+}
+
+.header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.category {
+    padding: 25px 35px;
+}
+
+.category+.category {
+    border-top: 1px solid #eeeeee;
+}
+
+.category-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.category-title h2 {
+    color: orange;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.line {
+    height: 3px;
+    flex: 1;
+    background: orange;
+    opacity: 0.3;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px dashed #dddddd;
+    transition: 0.2s;
+}
+
+.item:hover {
+    padding-left: 7px;
+    padding-right: 7px;
+    background: rgba(255, 166, 0, 0.326);
+}
+
+.item-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item-price {
+    color: orange;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.footer {
+    background: #171717;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer b {
+    color: orange;
+}
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .menu {
+        border-radius: 15px;
+    }
+
+    .header {
+        padding: 20px;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 7px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .category {
+        padding: 20px;
+    }
+
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    .category-title h2 {
+        font-size: 21px;
+    }
+
+    .item-name {
+        font-size: 14px;
+    }
+
+    .item-price {
+        font-size: 13px;
+    }
+}
+
+
+.htmll{
+    width: 70px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.htmll:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px gray;
+}
+
+.htmll:active{
+    transform: scale(1);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0);
+}
+
+.htmll a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
